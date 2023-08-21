@@ -1,0 +1,386 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: white;
+	padding: 8px;
+}
+
+.logo {
+	padding: 0 80px 0 30px;
+}
+
+.menu-btn {
+	padding: 12px;
+	margin: 0 10px 0 2px;
+	border-radius: 70px;
+}
+
+.menu-btn:hover {
+	background-color: rgba(60, 64, 67, .08);
+	outline: none;
+	opacity: 1;
+}
+
+.searchoptn {
+	padding: 0 0 0 20px;
+	display: flex;
+	margin-left: 60px;
+}
+
+.searchicon {
+	padding: 8px;
+	background-color: #eaf1fb;
+	border-top-left-radius: 22px;
+	border-bottom-left-radius: 22px;
+	color: #444746;
+}
+
+.searchicon:hover {
+	cursor: pointer;
+}
+
+.moreicon {
+	padding: 8px;
+	background-color: #eaf1fb;
+	border-top-right-radius: 22px;
+	border-bottom-right-radius: 22px;
+	color: #444746;
+}
+
+.searchbar {
+	border: none;
+	outline: none;
+	width: 400px;
+	height: 46px;
+	background-color: #eaf1fb;
+	font: normal 16px Google Sans, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.material-symbols-outlined:hover {
+	color: #5f6368;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.active {
+	padding: 8px;
+	margin: 0 40px;
+	border-radius: 24px;
+	background-color: #eaf1fb;
+	width: 100px;
+	display: flex;
+}
+
+.active p {
+	margin-top: 3px;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 14px;
+	color: #1f1f1f;
+	font-weight: 500;
+}
+
+.active img {
+	margin-top: 4px;
+	height: 18px;
+	width: 18px;
+}
+
+.active:hover {
+	background-color: #e6e9ed;
+}
+
+.icons span {
+	margin: 2px 0 2px 5px;
+	padding: 8px;
+	color: #746f6f;
+}
+
+.mail-option {
+	height: 23px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.second-body {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.side-bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: black;
+	width: 68px;
+	font: normal 12px Google Sans, Roboto, Helvetica, Arial, sans-serif;
+	color: #1f1f1f;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.side-icon {
+	margin: 0 -2px 0 0;
+	padding: 18px 2px 8px 0px;
+	text-align: center;
+}
+
+.icon {
+	margin: 0 12px;
+	padding: 0 6px;
+
+	border-radius: 22px;
+	width: 50px;
+	text-align: center;
+	color: #363636;
+}
+
+.second-side-bar {
+	text-align: center;
+	margin: 0 10px 0 20px;
+}
+
+.compailer {
+	display: flex;
+	margin: 10px 0px;
+	padding: 15px 20px;
+	border-radius: 20px;
+	background-color: #c2e7ff;
+	cursor: pointer;
+	font-size: 14px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	line-height: 23px;
+	width: 150px;
+	color: #001D35;
+	font-weight: 500;
+	height: 56px;
+	opacity: 3;
+}
+
+.compailer:hover {
+	transform: translate3d(1px, 0px, 0px);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.side-menu-bar {
+	margin-top: 20px;
+}
+
+.side-menu {
+	display: flex;
+	border-radius: 20px;
+	background-color: #eaf1fb;
+	cursor: pointer;
+
+	padding: 2px 12px 2px 16px;
+
+	align-items: center;
+	padding-right: 100px;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+	font-size: .875rem;
+	letter-spacing: normal;
+	color: #202124;
+	text-shadow: none;
+	font-weight: 500;
+}
+
+.menu-icon {
+	margin: 0 16px 0 0;
+	color: #5b5c5c;
+	opacity: 1;
+	font-size: 20px;
+}
+
+.side-menu p {
+	text-align: center;
+	line-height: 23px;
+}
+
+
+.side-menu-bar div:hover {
+	background-color: #c2e7ff;
+}
+
+.label {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 0 20px;
+
+}
+
+.label p {
+	margin-right: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: normal;
+	color: #585858;
+	cursor: pointer;
+}
+
+.main-body {
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 10px;
+	width: 72%;
+
+}
+
+.main-body-optn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #444444;
+}
+
+.cbo {
+	padding: 10px 0 10px 10px;
+	font-size: 20px;
+}
+
+.ref {
+	padding: 0 10px;
+}
+
+.main-body-r-optn {
+	display: flex;
+	padding: 10px 5px;
+}
+
+.main-body-r-optn p {
+	line-height: 23px;
+	margin: 0 20px;
+	color: #5e5e5e;
+	font-size: 12px;
+}
+
+.income-mail {
+	margin-left: 10px;
+}
+
+.star {
+	margin: 0 10px;
+}
+
+.mail1 {
+	display: flex;
+	padding: 6px 0;
+	color: #202124;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 25px;
+	border-bottom: 1px solid #e8e8ed;
+}
+
+.mail-title p {
+	padding: 0 32px 0 0;
+	line-height: 25px;
+	width: 225px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.mail-about p {
+	width: 615px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
+body {
+	overflow: hidden;
+}
+
+.right-menu {
+	display: flex;
+	flex-direction: column;
+	width: 60px;
+}
+
+.calander img {
+	height: 20px;
+	width: 20px;
+}
+
+.calander {
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.idea img {
+	height: 20px;
+	width: 20px;
+}
+
+.idea {
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.ok img {
+	height: 20px;
+	width: 20px;
+}
+
+.ok {
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.contact img {
+	height: 20px;
+	width: 20px;
+}
+
+.contact {
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 60px;
+	cursor: pointer;
+}
+
+.mail1 span {
+	color: gray;
+}
+
+.add {
+	text-align: center;
+	cursor: pointer;
+}
+
+.menu-icon,
+.box-star,
+.side {
+	font-size: 20px !important;
+}
+
+.mail1:hover {
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.time {
+	color: #5f6368;
+	font-size: 12px;
+	padding: 0 10px 0 20px;
+}
+
+.icon:hover {
+	background-color: #d3e3fd;
+}
